@@ -1,0 +1,27 @@
+// Color Variables
+
+$white: #fff;
+$color-primary: #58e1c1;
+$color-secondary: #777;
+$color-link: #51ddfc;
+$color-default: #51ddfc;
+$color-error: #e4757a;
+$color-info: #927bc1;
+$color-success: #63cc82;
+$color-warning: #fd7856;
+
+// Column Theme Colors
+
+$col-colors: (
+    $color-info, $color-warning, #deb2ee,#7ee6fd, #88d9a0, #4da2bb, #ec9fa3, #fd9f85, $color-error, $color-success, $color-default, #80e8d1
+);
+
+// Media Query Breakpoints
+
+$tablet: 768px;
+
+// Font Variables
+
+$f-family: 'Lato', sans-serif;
+$f-light: 300;
+$f-heavy: 700;
