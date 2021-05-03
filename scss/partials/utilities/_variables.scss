@@ -10,10 +10,21 @@ $color-info: #927bc1;
 $color-success: #63cc82;
 $color-warning: #fd7856;
 
-// Column Theme Colors
+// Column Theme Colors Map
 
 $col-colors: (
-    $color-info, $color-warning, #deb2ee,#7ee6fd, #88d9a0, #4da2bb, #ec9fa3, #fd9f85, $color-error, $color-success, $color-default, #80e8d1
+    'col-1': $color-info, 
+    'col-2': $color-warning, 
+    'col-3': #deb2ee,
+    'col-4': #7ee6fd, 
+    'col-5': #88d9a0, 
+    'col-6': #4da2bb, 
+    'col-7': #ec9fa3, 
+    'col-8': #fd9f85, 
+    'col-9': $color-error, 
+    'col-10': $color-success, 
+    'col-11': $color-default, 
+    'col-12': #80e8d1,
 );
 
 // Media Query Breakpoints
