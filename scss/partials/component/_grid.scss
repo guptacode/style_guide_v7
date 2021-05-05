@@ -4,12 +4,19 @@
 
 .container {
     padding: 0 10px;
+    @media (min-width: $break) {
+        max-width: 1400px;
+        @include centered;
+    }
   }
   
   .row {
     display: flex;
     flex-direction: column;
     padding: 1em 10px;
+    @media (min-width: $break) {
+        flex-direction: row;
+    }
   }
   
   [class^=col] {
@@ -18,6 +25,15 @@
     min-height: 25px;
     padding: 10px;
     border-radius: 5px;
+    @media (min-width: $break) {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        align-items: center;
+        & + & {
+            margin-left: 10px;
+        }
+    }
   }
   
   
