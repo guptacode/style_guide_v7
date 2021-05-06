@@ -11,11 +11,10 @@
   }
   
   .row {
-    display: flex;
-    flex-direction: column;
+    @include flexy(flex, column);
     padding: 1em 10px;
     @media (min-width: $break) {
-        flex-direction: row;
+      @include flexy($dir: row);
     }
   }
   
@@ -26,10 +25,8 @@
     padding: 10px;
     border-radius: 5px;
     @media (min-width: $break) {
-        display: flex;
-        justify-content: center;
+        @include flexy(flex, $just: center, $align: center);
         margin-top: 0;
-        align-items: center;
         & + & {
             margin-left: 10px;
         }

@@ -5,3 +5,15 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+//Flex Layout
+
+@mixin flexy($dis: null, 
+             $dir: null,
+             $just: null,
+             $align: null) {
+    display: $dis;
+    flex-direction: $dir;
+    justify-content: $just;
+    align-items: $align;
+}

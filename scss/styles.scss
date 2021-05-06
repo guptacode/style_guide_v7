@@ -1,15 +1,4 @@
-// Utilities
-@import 'partials/utilities/variables';
-@import 'partials/utilities/mixins';
 
-// Base
-@import 'partials/base/reset';
-@import 'partials/base/typography';
-
-// Component
-@import 'partials/component/grid';
-@import 'partials/component/navigation';
-@import 'partials/component/button';
-@import 'partials/component/form';
-@import 'partials/component/images';
-@import 'partials/component/media_queries';
+@import 'partials/utilities',
+        'partials/base',
+        'partials/component';
