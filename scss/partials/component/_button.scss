@@ -21,6 +21,10 @@
   @each $but-theme, $but-color in $but-colors {
       .#{$but-theme} {
           background-color: $but-color;
+          transition: background-color 0.5s ease-in-out;
+          &:hover {
+            background-color: lighten($but-color, 15%);
+        }
       }
   }
     
